@@ -1,0 +1,27 @@
+.card{
+    border: 2px solid #3a0099;
+    text-align: center;
+    background-color: #3a0099;
+    width: 105px;
+}
+
+
+#whitea{
+    color: aliceblue;
+    font-size: smaller;
+}
+
+#text-story{
+    padding: 10px;
+   
+}
+#seemore{
+    color: #3a0099;
+    text-align: center;
+}
+
+#img-story{
+    display: flex;
+    justify-content: right;
+
+}

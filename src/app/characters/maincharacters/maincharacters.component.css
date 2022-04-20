@@ -1,0 +1,57 @@
+
+.page-has-right-rail{
+    width: 991.34px;
+    background-color:#ffffff;
+    display: flex;
+   justify-content: center;
+}
+
+.main-page{
+    background-color:#ffffff;
+    width: 780px;
+    
+}
+.right-rail-page{
+    background-color: gray;
+    width: 336px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.container{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.resizable-container{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    background-color: #ffffff;
+    border: 5px solid #000000;
+    font-size: 120%;
+    line-height: 100%;
+    width: 22em;
+    font-family: Coming Soon;
+    text-transform: uppercase !important;
+
+}
+
+.text-game{
+    background-color: #000000;
+    color: #ffffff;
+    width: 380px;
+    height: 90px;
+    
+}
+.container{
+    
+}
+.summary{
+   
+   
+}

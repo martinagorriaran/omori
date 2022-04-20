@@ -1,0 +1,25 @@
+
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>
+
+<div class="container-login">
+  <div class="card text-center">
+      <div class="card-header">
+      <b>LOGIN</b>
+      </div>
+      <div class="card-body p-4">
+          <label style="float: left;">Email</label>
+          <input class="form-control mt-2" type="email" placeholder="Email" [(ngModel)]="usuario.email" >
+
+          <label style="float: left;">Password</label>
+          <input class="form-control mt-2" type="password" placeholder="Password" [(ngModel)]="usuario.password" >
+
+          <button class="btn btn-primary btn-block mt-2" (click)="ingresar">Login</button>
+
+          <label for="">Don't you have an account yet? <a href="#">Registrarse</a></label>
+      </div>
+      
+  </div>
+</div>
+
+<app-footer></app-footer>
